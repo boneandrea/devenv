@@ -5,3 +5,5 @@
 
 をまとめた。覚えられない。
 **随時更新。**
+
+整形に関連するemacsの設定はhttps://github.com/boneandrea/dotfiles
