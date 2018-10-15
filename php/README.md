@@ -12,3 +12,6 @@ curl -sS https://getcomposer.org/installer | php
 ./composer.phar install
 
 ### 困ったらcomposer.lockも消す
+
+# 参考にしたページ
+http://blog.manaten.net/entry/645
