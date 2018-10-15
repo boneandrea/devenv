@@ -2,6 +2,7 @@
   "require-dev": {
     "phpmd/phpmd": "*",
     "friendsofphp/php-cs-fixer": "*",
-    "suin/php-cs-fixer-rules": "*"
+    "suin/php-cs-fixer-rules": "*",
+    "phpunit/phpunit": "^7.4"
   }
 }
