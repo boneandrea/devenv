@@ -1,0 +1,7 @@
+{
+  "require-dev": {
+    "phpmd/phpmd": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "suin/php-cs-fixer-rules": "*"
+  }
+}
