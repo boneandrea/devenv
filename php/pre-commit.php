@@ -15,7 +15,7 @@ for FILE in `git diff-index --name-status $against -- | grep -E '^[AUM].*\.php$'
     # シンタックスのチェック
     if php -l $FILE; then
         # PSR準拠でコード書き換え
-        vendor/bin/php-cs-fixer fix $FILE
+        vendor/bin php-cs-fixer --allow-risky=yes fix $FILE
         git add $FILE
 
         # PHPMDで未使用変数などのチェック
